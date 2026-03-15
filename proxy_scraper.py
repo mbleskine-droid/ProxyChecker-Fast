@@ -54,9 +54,9 @@ HTTPBIN_URL     = "http://httpbin.org/get"
 
 BATCH_SIZE         = 1000
 CONCURRENT_BATCHES = 1
-MAX_WORKERS_ANON   = 50
+MAX_WORKERS_ANON   = 75
 PROXY_TIMEOUT      = 6
-LOOP_INTERVAL      = 120
+LOOP_INTERVAL      = 100
 API_DELAY          = 1.0
 
 OUTPUT_DIR       = "output"
